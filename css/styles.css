@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(rgb(71, 102, 118), darkred);
+    margin: 0;
+    padding: 0;
+}
+
+.bande {
+    background-color: white;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.afficheFilm {
+    padding-left: 16px;
+    background-size: contain;
+}
+
+.synopsis, .footer {
+    padding: 10px;
+}
+
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    padding: 10px;
+}
+
+.right {
+    width: 40%;
+    padding: 10px;
+}
+
+.right .titre {
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.right .cast {
+    list-style: none;
+    padding: 0;
+}
+
+.right .cast li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.right .cast .name {
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.right .cast .role {
+    color: rgb(84, 116, 137);
+    padding-left: 40px;
+}
+
+.footer .titre {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin: 5px 0;
+}
+
+.distribution-bande {
+    display: flex;
+}
+
+.distribution-bande .left {
+    width: 40%;
+}
